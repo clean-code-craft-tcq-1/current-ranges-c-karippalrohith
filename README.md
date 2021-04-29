@@ -52,5 +52,5 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 Implement one failing test and at least one passing test:
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+- "NULL check for the samples" the name of a **passing** test
+- "Check if all the values are within the range" the name of a **failing** test
