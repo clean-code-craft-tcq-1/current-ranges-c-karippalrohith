@@ -8,7 +8,7 @@ currentValueValidation_Status checkRangeValidation_For_CurrentValues(int * curre
   
   for(i=0;i<numberOfReadings;i++)
   {
-    if((current_ValuesFrom_Sensor[i] > 0) && (current_ValuesFrom_Sensor[i] < 15))
+    if((current_ValuesFrom_Sensor[i] > MINIMUM_CURRENT_VALUE) && (current_ValuesFrom_Sensor[i] < MAXIMUM_CURRENT_VALUE))
     {
       currentValueValidation_Status_t = VALUES_IN_RANGE;
     }
